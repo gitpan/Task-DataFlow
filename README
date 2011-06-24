@@ -1,0 +1,26 @@
+NAME
+    Task::DataFlow - The DataFlow Module Collection (new flavor)
+
+VERSION
+    version 0.001
+
+TASK CONTENTS
+  DataFlow Core
+   DataFlow 1.111750
+    Version 1.111750 required because: First version with split modules
+
+  DataFlow Converters
+   DataFlow::Proc::MessagePack 1.111750
+   DataFlow::Proc::JSON 1.111750
+   DataFlow::Proc::YAML 1.111750
+  DataFlow for Web
+   DataFlow::Proc::URLRetriever 1.111750
+AUTHOR
+    Alexei Znamensky <russoz@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2011 by Alexei Znamensky.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

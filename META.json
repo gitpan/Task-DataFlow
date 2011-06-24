@@ -1,0 +1,48 @@
+{
+   "abstract" : "The DataFlow Module Collection (new flavor)",
+   "author" : [
+      "Alexei Znamensky <russoz@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.200008, CPAN::Meta::Converter version 2.110930",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Task-DataFlow",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "DataFlow" : "1.111750",
+            "DataFlow::Proc::JSON" : "1.111750",
+            "DataFlow::Proc::MessagePack" : "1.111750",
+            "DataFlow::Proc::URLRetriever" : "1.111750",
+            "DataFlow::Proc::YAML" : "1.111750"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://github.com/russoz/Task-DataFlow",
+      "repository" : {
+         "type" : "git",
+         "url" : "http://github.com/russoz/Task-DataFlow",
+         "web" : "http://github.com/russoz/Task-DataFlow"
+      }
+   },
+   "version" : "0.001"
+}
+

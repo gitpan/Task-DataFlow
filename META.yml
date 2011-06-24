@@ -1,0 +1,25 @@
+---
+abstract: 'The DataFlow Module Collection (new flavor)'
+author:
+  - 'Alexei Znamensky <russoz@cpan.org>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.200008, CPAN::Meta::Converter version 2.110930'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-DataFlow
+requires:
+  DataFlow: 1.111750
+  DataFlow::Proc::JSON: 1.111750
+  DataFlow::Proc::MessagePack: 1.111750
+  DataFlow::Proc::URLRetriever: 1.111750
+  DataFlow::Proc::YAML: 1.111750
+resources:
+  homepage: http://github.com/russoz/Task-DataFlow
+  repository: http://github.com/russoz/Task-DataFlow
+version: 0.001

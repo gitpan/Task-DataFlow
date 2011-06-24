@@ -1,0 +1,44 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 a1f277340c23f1fff6ff48b2bf5f4e9d5909e2f9 Changes
+SHA1 e22e721835062139a151063b1c6e3248f2e32a51 INSTALL
+SHA1 06abad21694ddb03c0fd03ba52d6d652ca43856e LICENSE
+SHA1 5361c9be46eefdb33edadd168389e05d1bdfde1e MANIFEST
+SHA1 90a09d484e10a8c81c334b3c0aaddab4d71e91dc META.json
+SHA1 9399bca21faa747b979aaa68110c43bd39f645da META.yml
+SHA1 703693cc2efccca2b2e423287213c2be55665f75 Makefile.PL
+SHA1 b443fe2910ac59af14aed8da1e38c288541de09a README
+SHA1 48f1405fa2714e5b039c11d341f954156883956c dist.ini
+SHA1 084de366325dc75619c30d6eb8009584612b46b5 lib/Task/DataFlow.pm
+SHA1 812c73cc8e8feda102370afec8c62156b7014212 t/task-bogus.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQIcBAEBAgAGBQJOBNCAAAoJEMZvtcdxyp88Rh8QALaZ9jmD6bxB2MJkoSqOFgwO
+u/4OwdKMyMuL3srmZbB/xMbfYbTMVurklF6qWAPV5RM9AhJI3UWjvNfpM8w3Isw2
+UWpNOTWQamHoN3FOiA5hddSDcbCF7e+Un52fy4V9xQ1SBnpkgPZfpBdwGO0NES4E
+LUm3EmZ29zIRIDAhepHnXScBOTHki7SgEQVjkUs/1vEnYAswY+evZCyuJHLcNAeE
+whyX3yAN3lf6eWexwM8wB3dyt3ZNzAW2qUUxPxDkmBjk5aRI12e5kJTW2SkKtLS0
+L2jaokbcp9indsHvqkc3iJB2Z8+BG9wbk3EmUUhvm3kX4GC2rmZexWrPjfMc32D4
+393BuinDgy8LmxaTgwsmvx9hh8b13e6kqfRg2U2rkpExogPTnDfESs8xuhOVM4qU
+HN1yD2mfOFJ5qWvWQUyvhoRVw2+pewvcv087rYISOg3Tn+Y/mz4UJzljfBB5WkJf
+HWdZPfEsPc6hHqlaHkmy7GYN8x6wJmv2sj7pa/x+XcHSwrTvM172OT2miw5pkxxH
+pbPWL3xmNQuA3/KpBwMeJqhlyZh1drGaAy4XUYt3PeKe6sCq1lgtcjrmqIB58ZYQ
+JglnLX3CUjYTXMKjl7GPVsLm6ItsDo5F0i1dI80S2FcUb7mtFKX43iRNbHbf3ePK
+QmL4rFd0RTrzHG70T36G
+=nwYP
+-----END PGP SIGNATURE-----
