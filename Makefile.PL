@@ -22,13 +22,14 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'Task::DataFlow',
   'PREREQ_PM' => {
-    'DataFlow' => '1.111750',
+    'DataFlow' => '1.111762',
+    'DataFlow::Proc::HTMLFilter' => '1.111762',
     'DataFlow::Proc::JSON' => '1.111750',
     'DataFlow::Proc::MessagePack' => '1.111750',
-    'DataFlow::Proc::URLRetriever' => '1.111750',
+    'DataFlow::Proc::URLRetriever' => '1.111751',
     'DataFlow::Proc::YAML' => '1.111750'
   },
-  'VERSION' => '0.001',
+  'VERSION' => '0.002',
   'test' => {
     'TESTS' => 't/*.t'
   }

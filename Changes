@@ -1,6 +1,14 @@
 Revision History for Task-DataFlow
 ==================================
 
+0.002
+-----
+
+commit 4854242f4898997bab0f4562686ed281da4a05cf
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    updated with HTMLFilter refactor
+
 ===================================
 End of changes in the last 365 days
 ===================================

@@ -5,8 +5,7 @@ use warnings;
 
 # ABSTRACT: The DataFlow Module Collection (new flavor)
 
-our $VERSION = '0.001'; # VERSION
-
+our $VERSION = '0.002'; # VERSION
 
 1;
 
@@ -21,27 +20,49 @@ Task::DataFlow - The DataFlow Module Collection (new flavor)
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 TASK CONTENTS
 
 =head2 DataFlow Core
 
-=head3 L<DataFlow> 1.111750
+The core features of the DataFlow framework.
 
-Version 1.111750 required because: First version with split modules
+=head3 L<DataFlow> 1.111762
+
+Version 1.111762 required because: Refactored modules out
 
 =head2 DataFlow Converters
 
 =head3 L<DataFlow::Proc::MessagePack> 1.111750
 
+Version 1.111750 required because: Converts to and fro MessagePack format
+
+No tests yet!!
+
 =head3 L<DataFlow::Proc::JSON> 1.111750
+
+Version 1.111750 required because: Converts to and fro JSON format
+
+No tests yet!!
 
 =head3 L<DataFlow::Proc::YAML> 1.111750
 
+Version 1.111750 required because: Converts to and fro YAML format
+
+No tests yet!!
+
 =head2 DataFlow for Web
 
-=head3 L<DataFlow::Proc::URLRetriever> 1.111750
+Processors to help scraping the dirt out of the web.
+
+=head3 L<DataFlow::Proc::URLRetriever> 1.111751
+
+Version 1.111751 required because: Using LWP::UserAgent
+
+=head3 L<DataFlow::Proc::HTMLFilter> 1.111762
+
+A powerful HTML filter based on XPath.
 
 =head1 AUTHOR
 
