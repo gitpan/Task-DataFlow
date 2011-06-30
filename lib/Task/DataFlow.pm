@@ -5,7 +5,7 @@ use warnings;
 
 # ABSTRACT: The DataFlow Module Collection (new flavor)
 
-our $VERSION = '0.002'; # VERSION
+our $VERSION = '0.003'; # VERSION
 
 1;
 
@@ -20,7 +20,7 @@ Task::DataFlow - The DataFlow Module Collection (new flavor)
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 TASK CONTENTS
 
@@ -28,27 +28,21 @@ version 0.002
 
 The core features of the DataFlow framework.
 
-=head3 L<DataFlow> 1.111762
+=head3 L<DataFlow> 1.111810
 
-Version 1.111762 required because: Refactored modules out
+Version 1.111810 required because: Using builders instead of defaults (Moose)
 
 =head2 DataFlow Converters
 
-=head3 L<DataFlow::Proc::MessagePack> 1.111750
-
-Version 1.111750 required because: Converts to and fro MessagePack format
+=head3 L<DataFlow::Proc::MessagePack> 1.111810
 
 No tests yet!!
 
-=head3 L<DataFlow::Proc::JSON> 1.111750
-
-Version 1.111750 required because: Converts to and fro JSON format
+=head3 L<DataFlow::Proc::JSON> 1.111810
 
 No tests yet!!
 
-=head3 L<DataFlow::Proc::YAML> 1.111750
-
-Version 1.111750 required because: Converts to and fro YAML format
+=head3 L<DataFlow::Proc::YAML> 1.111810
 
 No tests yet!!
 
@@ -56,11 +50,9 @@ No tests yet!!
 
 Processors to help scraping the dirt out of the web.
 
-=head3 L<DataFlow::Proc::URLRetriever> 1.111751
+=head3 L<DataFlow::Proc::URLRetriever> 1.111810
 
-Version 1.111751 required because: Using LWP::UserAgent
-
-=head3 L<DataFlow::Proc::HTMLFilter> 1.111762
+=head3 L<DataFlow::Proc::HTMLFilter> 1.111810
 
 A powerful HTML filter based on XPath.
 

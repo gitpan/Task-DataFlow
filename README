@@ -2,39 +2,31 @@ NAME
     Task::DataFlow - The DataFlow Module Collection (new flavor)
 
 VERSION
-    version 0.002
+    version 0.003
 
 TASK CONTENTS
   DataFlow Core
     The core features of the DataFlow framework.
 
-   DataFlow 1.111762
-    Version 1.111762 required because: Refactored modules out
+   DataFlow 1.111810
+    Version 1.111810 required because: Using builders instead of defaults
+    (Moose)
 
   DataFlow Converters
-   DataFlow::Proc::MessagePack 1.111750
-    Version 1.111750 required because: Converts to and fro MessagePack
-    format
-
+   DataFlow::Proc::MessagePack 1.111810
     No tests yet!!
 
-   DataFlow::Proc::JSON 1.111750
-    Version 1.111750 required because: Converts to and fro JSON format
-
+   DataFlow::Proc::JSON 1.111810
     No tests yet!!
 
-   DataFlow::Proc::YAML 1.111750
-    Version 1.111750 required because: Converts to and fro YAML format
-
+   DataFlow::Proc::YAML 1.111810
     No tests yet!!
 
   DataFlow for Web
     Processors to help scraping the dirt out of the web.
 
-   DataFlow::Proc::URLRetriever 1.111751
-    Version 1.111751 required because: Using LWP::UserAgent
-
-   DataFlow::Proc::HTMLFilter 1.111762
+   DataFlow::Proc::URLRetriever 1.111810
+   DataFlow::Proc::HTMLFilter 1.111810
     A powerful HTML filter based on XPath.
 
 AUTHOR
