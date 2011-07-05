@@ -5,7 +5,7 @@ use warnings;
 
 # ABSTRACT: The DataFlow Module Collection (new flavor)
 
-our $VERSION = '0.003'; # VERSION
+our $VERSION = '0.004'; # VERSION
 
 1;
 
@@ -20,7 +20,7 @@ Task::DataFlow - The DataFlow Module Collection (new flavor)
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 TASK CONTENTS
 
@@ -28,9 +28,9 @@ version 0.003
 
 The core features of the DataFlow framework.
 
-=head3 L<DataFlow> 1.111810
+=head3 L<DataFlow> 1.111860
 
-Version 1.111810 required because: Using builders instead of defaults (Moose)
+Version 1.111860 required because: Using builders instead of defaults (Moose)
 
 =head2 DataFlow Converters
 

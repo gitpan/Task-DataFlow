@@ -21,7 +21,7 @@
       },
       "runtime" : {
          "requires" : {
-            "DataFlow" : "1.111810",
+            "DataFlow" : "1.111860",
             "DataFlow::Proc::HTMLFilter" : "1.111810",
             "DataFlow::Proc::JSON" : "1.111810",
             "DataFlow::Proc::MessagePack" : "1.111810",
@@ -44,6 +44,6 @@
          "web" : "http://github.com/russoz/Task-DataFlow"
       }
    },
-   "version" : "0.003"
+   "version" : "0.004"
 }
 

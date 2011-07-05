@@ -1,8 +1,16 @@
 Revision History for Task-DataFlow
 ==================================
 
-0.003
+0.004
 -----
+
+commit a42ff11c094e71aecf9d2f6955e64e417b793b31
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    DataFlow version++, version++
+
+v0.003 2011-06-29
+-----------------
 
 commit ba01ad537a1fa9d13990ee1115eaad22dad10b55
 Author: Alexei Znamensky <russoz@cpan.org>

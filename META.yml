@@ -14,7 +14,7 @@ meta-spec:
   version: 1.4
 name: Task-DataFlow
 requires:
-  DataFlow: 1.111810
+  DataFlow: 1.111860
   DataFlow::Proc::HTMLFilter: 1.111810
   DataFlow::Proc::JSON: 1.111810
   DataFlow::Proc::MessagePack: 1.111810
@@ -23,4 +23,4 @@ requires:
 resources:
   homepage: http://github.com/russoz/Task-DataFlow
   repository: http://github.com/russoz/Task-DataFlow
-version: 0.003
+version: 0.004
