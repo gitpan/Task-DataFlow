@@ -2,7 +2,7 @@ NAME
     Task::DataFlow - The DataFlow Module Collection (new flavor)
 
 VERSION
-    version 0.004
+    version 0.005
 
 TASK CONTENTS
   DataFlow Core
@@ -21,6 +21,9 @@ TASK CONTENTS
 
    DataFlow::Proc::YAML 1.111810
     No tests yet!!
+
+   DataFlow::Proc::DBF
+    First module contributed to DataFlow. Thanks Garu!! :-)
 
   DataFlow for Web
     Processors to help scraping the dirt out of the web.

@@ -5,7 +5,7 @@ use warnings;
 
 # ABSTRACT: The DataFlow Module Collection (new flavor)
 
-our $VERSION = '0.004'; # VERSION
+our $VERSION = '0.005'; # VERSION
 
 1;
 
@@ -20,7 +20,7 @@ Task::DataFlow - The DataFlow Module Collection (new flavor)
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 TASK CONTENTS
 
@@ -45,6 +45,10 @@ No tests yet!!
 =head3 L<DataFlow::Proc::YAML> 1.111810
 
 No tests yet!!
+
+=head3 L<DataFlow::Proc::DBF>
+
+First module contributed to DataFlow. Thanks Garu!! :-)
 
 =head2 DataFlow for Web
 

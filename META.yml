@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200008, CPAN::Meta::Converter version 2.110930'
+generated_by: 'Dist::Zilla version 4.200009, CPAN::Meta::Converter version 2.110930'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,6 +15,7 @@ meta-spec:
 name: Task-DataFlow
 requires:
   DataFlow: 1.111860
+  DataFlow::Proc::DBF: 0
   DataFlow::Proc::HTMLFilter: 1.111810
   DataFlow::Proc::JSON: 1.111810
   DataFlow::Proc::MessagePack: 1.111810
@@ -23,4 +24,4 @@ requires:
 resources:
   homepage: http://github.com/russoz/Task-DataFlow
   repository: http://github.com/russoz/Task-DataFlow
-version: 0.004
+version: 0.005
