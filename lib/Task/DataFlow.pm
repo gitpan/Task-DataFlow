@@ -5,10 +5,9 @@ use warnings;
 
 # ABSTRACT: The DataFlow Module Collection (new flavor)
 
-our $VERSION = '0.005'; # VERSION
+our $VERSION = '0.006';    # VERSION
 
 1;
-
 
 
 __END__
@@ -20,7 +19,7 @@ Task::DataFlow - The DataFlow Module Collection (new flavor)
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 TASK CONTENTS
 
@@ -59,6 +58,10 @@ Processors to help scraping the dirt out of the web.
 =head3 L<DataFlow::Proc::HTMLFilter> 1.111810
 
 A powerful HTML filter based on XPath.
+
+=head2 Others
+
+=head3 L<DataFlow::Proc::DPath>
 
 =head1 AUTHOR
 

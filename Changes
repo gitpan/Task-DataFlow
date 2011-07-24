@@ -1,8 +1,16 @@
 Revision History for Task-DataFlow
 ==================================
 
-0.005
+0.006
 -----
+
+commit b491c7b5c2f839de8e8bb35c3448e510d9cdf2a5
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    added DPath proc, tweaked dist.ini
+
+v0.005 2011-07-10
+-----------------
 
 commit cc01ff1aa2cc13535e289d714b790de3792f33a6
 Author: Alexei Znamensky <russoz@cpan.org>

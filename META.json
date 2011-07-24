@@ -4,7 +4,7 @@
       "Alexei Znamensky <russoz@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200009, CPAN::Meta::Converter version 2.110930",
+   "generated_by" : "Dist::Zilla version 4.200012, CPAN::Meta::Converter version 2.110930001",
    "license" : [
       "perl_5"
    ],
@@ -23,6 +23,7 @@
          "requires" : {
             "DataFlow" : "1.111860",
             "DataFlow::Proc::DBF" : 0,
+            "DataFlow::Proc::DPath" : 0,
             "DataFlow::Proc::HTMLFilter" : "1.111810",
             "DataFlow::Proc::JSON" : "1.111810",
             "DataFlow::Proc::MessagePack" : "1.111810",
@@ -38,13 +39,13 @@
    },
    "release_status" : "stable",
    "resources" : {
-      "homepage" : "http://github.com/russoz/Task-DataFlow",
+      "homepage" : "https://github.com/russoz/Task-DataFlow",
       "repository" : {
          "type" : "git",
-         "url" : "http://github.com/russoz/Task-DataFlow",
-         "web" : "http://github.com/russoz/Task-DataFlow"
+         "url" : "https://github.com/russoz/Task-DataFlow",
+         "web" : "https://github.com/russoz/Task-DataFlow"
       }
    },
-   "version" : "0.005"
+   "version" : "0.006"
 }
 
