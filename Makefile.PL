@@ -9,31 +9,33 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'The DataFlow Module Collection (new flavor)',
-  'AUTHOR' => 'Alexei Znamensky <russoz@cpan.org>',
-  'BUILD_REQUIRES' => {
-    'Test::More' => '0'
+  "ABSTRACT" => "The DataFlow Module Collection (new flavor)",
+  "AUTHOR" => "Alexei Znamensky <russoz\@cpan.org>",
+  "BUILD_REQUIRES" => {
+    "Test::More" => 0
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'Task-DataFlow',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'Task::DataFlow',
-  'PREREQ_PM' => {
-    'DataFlow' => '1.112100',
-    'DataFlow::Proc::DBF' => '0',
-    'DataFlow::Proc::DPath' => '1.112100',
-    'DataFlow::Proc::HTMLFilter' => '1.112100',
-    'DataFlow::Proc::JSON' => '1.112100',
-    'DataFlow::Proc::MessagePack' => '1.112100',
-    'DataFlow::Proc::URLRetriever' => '1.112100',
-    'DataFlow::Proc::YAML' => '1.112100'
+  "DISTNAME" => "Task-DataFlow",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "Task::DataFlow",
+  "PREREQ_PM" => {
+    "DataFlow" => "1.121690",
+    "DataFlow::Proc::DBF" => 0,
+    "DataFlow::Proc::DPath" => "1.112100",
+    "DataFlow::Proc::HTMLFilter" => "1.112100",
+    "DataFlow::Proc::JSON" => "1.112100",
+    "DataFlow::Proc::MessagePack" => "1.112100",
+    "DataFlow::Proc::URLRetriever" => "1.112100",
+    "DataFlow::Proc::YAML" => "1.112100",
+    "strict" => 0,
+    "warnings" => 0
   },
-  'VERSION' => '0.007',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.008",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
